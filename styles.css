@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    flex-direction: column;
+}
+
+.palette {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.color {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+.canvas {
+    border: 2px solid #000;
+    width: 800px;
+    height: 600px;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}

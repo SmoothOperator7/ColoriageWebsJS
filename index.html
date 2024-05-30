@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coloriage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="palette">
+        <div class="color" data-color="#d82a20" style="background-color: #d82a20;"></div> <!-- 1 -->
+        <div class="color" data-color="#a41c1c" style="background-color: #a41c1c;"></div> <!-- 2 -->
+        <div class="color" data-color="#f26124" style="background-color: #f26124;"></div> <!-- 3 -->
+        <div class="color" data-color="#f8d648" style="background-color: #f8d648;"></div> <!-- 4 -->
+        <div class="color" data-color="#e5a855" style="background-color: #e5a855;"></div> <!-- 5 -->
+        <div class="color" data-color="#a55c32" style="background-color: #a55c32;"></div> <!-- 6 -->
+        <div class="color" data-color="#b8d9c4" style="background-color: #b8d9c4;"></div> <!-- 7 -->
+        <div class="color" data-color="#639fa5" style="background-color: #639fa5;"></div> <!-- 8 -->
+        <div class="color" data-color="#96c53d" style="background-color: #96c53d;"></div> <!-- 9 -->
+        <div class="color" data-color="#72b555" style="background-color: #72b555;"></div> <!-- 10 -->
+        <div class="color" data-color="#0e579a" style="background-color: #0e579a;"></div> <!-- 11 -->
+        <div class="color" data-color="#1d75b7" style="background-color: #1d75b7;"></div> <!-- 12 -->
+        <div class="color" data-color="#333488" style="background-color: #333488;"></div> <!-- 13 -->
+        <div class="color" data-color="#d64a8a" style="background-color: #d64a8a;"></div> <!-- 14 -->
+        <div class="color" data-color="#e8b7b8" style="background-color: #e8b7b8;"></div> <!-- 15 -->
+        <div class="color" data-color="#d72147" style="background-color: #d72147;"></div> <!-- 16 -->
+        <div class="color" data-color="#d6bca9" style="background-color: #d6bca9;"></div> <!-- 17 -->
+        <div class="color" data-color="#f1e1dd" style="background-color: #f1e1dd;"></div> <!-- 18 -->
+        <div class="color" data-color="#bab1b1" style="background-color: #bab1b1;"></div> <!-- 19 -->
+        <div class="color" data-color="#585a5a" style="background-color: #585a5a;"></div> <!-- 20 -->
+    </div>
+    <div class="canvas">
+        <svg id="coloring-book" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+            <!-- Diviser un carré en quatre parties -->
+            <rect x="100" y="100" width="300" height="300" data-number="1"></rect> <!-- En haut à gauche -->
+            <rect x="410" y="100" width="300" height="300" data-number="2"></rect> <!-- En haut à droite -->
+            <rect x="100" y="410" width="300" height="300" data-number="3"></rect> <!-- En bas à gauche -->
+            <rect x="410" y="410" width="300" height="300" data-number="4"></rect> <!-- En bas à droite -->
+            <!-- Ajouter d'autres éléments SVG selon les besoins -->
+        </svg>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
